@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>while</title>
+</head>
+<body>
+<script>
+    let i =1;
+    let j =1;
+    let am ="<table border='1' width='300' cellspacing='0' cellpadding='3'>";
+    while(i<=10){
+        am = am +"<tr>";
+        while(j<=10){
+            am = am +"<td>"+j*i+"</td>";
+            j++
+
+
+        }
+        am = am +"</tr>";
+        j =1;
+        i++;
+
+    }
+    am = am +"</table>"
+    document.write(am)
+</script>
+</body>
+</html>
